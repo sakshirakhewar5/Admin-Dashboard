@@ -1,0 +1,34 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #c24141;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(107, 107, 232);
+}
+
+tr:hover {
+    background-color: pink;
+}
+
+.edit-btn,
+.delete-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    background-color: bisque;
+}
+
+button:hover {
+    background-color: rgb(130, 208, 208);
+}

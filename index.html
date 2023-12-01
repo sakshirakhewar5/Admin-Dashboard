@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="stayle.css">
+
+    <body>
+        <h1>Admin Dashboard</h1>
+
+
+        <!-- Form to add new data -->
+        <form onsubmit="addData(event)">
+            <input type="text" placeholder="ID" id="newId">
+            <input type="text" placeholder="Name" id="newName">
+            <input type="email" placeholder="Email" id="newEmail">
+            <select id="newRole">
+            <option value="admin">Admin</option>
+            <option value="member">Member</option>
+    </select>
+            <button type="submit">Add</button>
+        </form><br>
+
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
